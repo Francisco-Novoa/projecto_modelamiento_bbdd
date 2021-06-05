@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D62D07E3-F363-8048-31DD-69DCA72A2F9F" name="tipo_vehiculo">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:40:03 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="8951AFF4-C125-BC05-2846-F0A9E3D10B72">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:40:31 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7B981AE-6BC5-B9E2-4EB6-91C20EC8B503" name="tipo_vehiculo_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:40:31 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8951AFF4-C125-BC05-2846-F0A9E3D10B72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

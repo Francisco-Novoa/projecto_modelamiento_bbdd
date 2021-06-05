@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0619C98B-5313-A969-A86A-16B33B5DE22B" name="Afiliados">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:04:16 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CCA757F6-666C-BCB9-02A2-4D39A8ADAC95">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="4C283AEB-A7C6-D52D-6C65-FA2A1E119C9D">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="386FE12D-FED9-593D-DBD4-BD53BC51DC3D">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="2DE9CBFE-4898-90AE-E896-C9D531D99DF7">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="BFEAE1C3-6E68-0EEC-ABF1-C38A1C0FEFB5">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="B50793E8-23AF-2A65-CEBC-6952D504853E">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="FA5E8383-B560-595F-4154-5FC0FDE45EFB">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="4F3AFC77-2EF5-0E7C-C322-8741E35AFB4B">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="BDF20F25-19BD-92D9-6184-0E4B38DAD40D">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasaporte" id="A390E286-695E-5547-A596-534314C72000">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pretension_sueldo" id="D5109A0F-FB68-4090-7236-3AE5B83978E0">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:10:35 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="CF349D3F-EC33-CF87-BD06-3C4F6C0A012A">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:10:35 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_electronico" id="1F558F10-CDD9-1DC9-CDF9-98B24646B551">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:12:08 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curriculum" id="D27E03CA-FE64-1845-B9CD-0DD32802F61F">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:25:00 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66978B1A-1937-597F-F848-D66700E0A600" name="Afiliados_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:09:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCA757F6-666C-BCB9-02A2-4D39A8ADAC95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

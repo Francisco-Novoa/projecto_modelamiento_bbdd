@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DC27415-DC88-40E2-1383-A3430B18B4A3" name="vehiculos">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:34:57 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="129EADA9-7B0C-445C-DFAB-FF941B3D98CB">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:39:48 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="58746A6F-26D6-A669-A0C7-7AF41D8D96EA">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:39:48 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="A4EC2264-66BB-888D-359A-9C86F1A85146">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:39:48 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patente" id="56FE42CE-D6B4-087E-91E5-2C20DEA67D9E">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:39:48 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="2B2A0A91-EB1E-F624-FEF1-9EEE4E627AA1">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:39:48 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_motor" id="C0A08496-071A-525A-0C91-1405D30B0B19">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:39:48 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_chasis" id="7D90D731-20A9-B173-3442-BA0ED3E96446">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-05-09 20:39:48 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
