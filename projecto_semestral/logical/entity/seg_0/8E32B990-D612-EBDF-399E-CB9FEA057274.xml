@@ -116,18 +116,6 @@
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="sexo" id="D8B40F36-2515-2492-C901-B3BE83B6138D">
-<createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:52:51 UTC</createdTime>
-<ownerDesignName>projecto_semestral</ownerDesignName>
-<engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -138,7 +126,6 @@
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -149,18 +136,16 @@
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="calle" id="53BFE25D-864E-7D88-0E35-9EE907D219B4">
+<Attribute name="direccion" id="53BFE25D-864E-7D88-0E35-9EE907D219B4">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 22:09:41 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -175,7 +160,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="246CB6AF-0AE7-8190-4834-A30E05B80CDF">
+<Attribute name="nombre_genero" id="246CB6AF-0AE7-8190-4834-A30E05B80CDF">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 22:52:46 UTC</createdTime>
 <generatorID>9B151180-F5B0-F1DE-41FE-76AEF5AE8697</generatorID>
@@ -187,18 +172,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero" id="D2DA7B3D-C3BC-9610-9F45-E861838B7FD9">
-<createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:53:29 UTC</createdTime>
-<generatorID>A39354EE-A81E-4349-F90C-CEA684120331</generatorID>
-<ownerDesignName>projecto_semestral</ownerDesignName>
-<engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
-</engineerTo>
-<referedAttribute>2BE4D89A-9C96-40EB-D82D-E4C93574149D</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="activo" id="C3C4B32B-04A9-7E40-16CA-73A2AA2E876E">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 23:30:34 UTC</createdTime>
@@ -206,7 +179,6 @@
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -252,8 +224,9 @@
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-05-09 20:53:32 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

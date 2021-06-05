@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F654BB15-1DC3-FDC7-AAC7-7285F6E9F214" name="FORMA_DE_PAGO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>638D96C4-1B2C-DDE0-6DD7-0C876BDFA01C</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A873B98E-1E4A-4CBE-926E-F9D717F3F3FF">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[efectivo, tarjeta, cheque
+]]></commentInRDBMS>
+<generatorID>64AAC618-883A-266C-4A01-29783A8CFC9F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="0CAF917E-9D9E-CF8B-11DC-E342B51F19FF">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>E3F74E1F-E625-3FD1-A0A0-4E814063D794</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSFERENCIA_id" id="D106A5A0-C445-5794-1C47-5CD2936F22B1">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>F55F955D-69D7-732C-4E7A-8C36A82C1D6F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECD1508C-21B2-E07E-F405-DA68CE8CA8A2" referredColumn="36EAF62A-C827-B577-3E78-4E7EDDD75131"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B362EF8-B9AA-54D7-60DA-BB314D0AAEE3" name="FORMA_DE_PAGO_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>21779BCC-1E97-E2A9-9575-A8830CF74C81</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A873B98E-1E4A-4CBE-926E-F9D717F3F3FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A8BDE75-C8A9-F49C-E395-B644E9E771C6" name="FORMA_DE_PAGO_TRANSFERENCIA_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>147E77E6-248F-6764-2FB5-CABD093BCAF0</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D106A5A0-C445-5794-1C47-5CD2936F22B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

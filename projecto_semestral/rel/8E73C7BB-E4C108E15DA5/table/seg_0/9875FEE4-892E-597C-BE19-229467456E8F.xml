@@ -1,24 +1,26 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48814C47-B010-F4DE-D9EF-439A0FB1631A" name="beneficio">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9875FEE4-892E-597C-BE19-229467456E8F" name="BANCO">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:28:23 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>1F2AA89D-E637-D344-A36A-34C9A5561CDE</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="EC44A9FC-E429-E529-4D78-4C88AADDA0F0">
+<Column name="id" id="F6F176AE-C68A-AC66-98DA-CBC9FAA3DD51">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:32:24 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>DE636230-366A-97C1-9FA6-D5866BD09EEB</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre" id="27B1643E-016E-9949-2122-BB27EC1F02FA">
+<Column name="nombre" id="29A3E576-3A7D-504C-AC70-5E83824DD050">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:32:24 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>17C21E1C-36CE-734B-72EE-925DEEFC44B6</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -26,15 +28,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FA8F3A3D-A7F4-DC1B-384B-204C68F445EB" name="beneficio_PK">
+<ind_PK_UK id="18997906-0535-44DB-D224-516CDFFBEDBA" name="BANCO_PK">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:32:24 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>2270ED26-6246-1B87-BDD5-60BAE9782785</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EC44A9FC-E429-E529-4D78-4C88AADDA0F0"/>
+<colUsage columnID="F6F176AE-C68A-AC66-98DA-CBC9FAA3DD51"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

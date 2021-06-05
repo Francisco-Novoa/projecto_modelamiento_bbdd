@@ -1,83 +1,83 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C65DC127-9D5F-3B5A-0E00-F521D9563051" name="carga">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85348860-94BE-68E7-56FD-6BD34C9142EC" name="CARGAS">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:25:59 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>A871145F-EC64-D4A6-0853-54B455D0D8AF</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
-<ordsAlias>table_11</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="58910624-9BC9-DC63-69F6-59136305E115">
+<Column name="id" id="D371911A-F538-87DF-5AA4-BA37833DEB56">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:26:54 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>8815EC23-218D-BDAF-CF3F-A23FCF43DE9F</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="primer_nombre" id="A9A0E575-82AE-93FA-7F7B-D13E815DD2E9">
+<Column name="primer_nombre" id="8578E8A9-3382-2982-901A-7836EEEDAC06">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:26:54 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>07DFF5ED-3969-7D81-21D1-61EAD88D6009</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="segundo_nombre" id="204A593F-7AC2-9D32-ED16-AA433F4C7BFC">
+<Column name="segundo_nombre" id="E2439527-8D3A-63AE-DAFA-B0267DD73D12">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:26:54 UTC</createdTime>
-<ownerDesignName>projecto_semestral</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="primer_apellido" id="90C2D4B7-3304-08CE-F484-BDD3739EFBD6">
-<createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:26:54 UTC</createdTime>
-<ownerDesignName>projecto_semestral</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="segundo_apellido" id="D4609D67-20E4-0916-1A2F-1E6A59417D21">
-<createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:26:54 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>CA999B57-140C-49B5-C913-338C3BC9B876</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fecha_nacimiento" id="3D89968D-B237-D48D-513C-3A89D9407BCF">
+<Column name="primer_paterno" id="F49656DD-84EF-C655-6049-984E5A11F9FF">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:26:54 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>0BD8695A-DC34-19BC-FA29-162105048454</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nacionalidad" id="D191CB81-C709-6588-394F-4FEA337E62C5">
+<Column name="segundo_materno" id="1D679CEF-57C7-74D2-99CC-0A3267A91A4C">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:26:54 UTC</createdTime>
-<ownerDesignName>projecto_semestral</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="rut" id="0B53685A-E5E5-0308-C615-6326CAA89E8D">
-<createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:26:54 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>B3AC94EF-FD16-FFC6-E582-DE0BBBA1637D</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="pasaporte" id="02E2609E-0DA0-AD5A-22BE-838ACB913A72">
+<Column name="fecha_nacimiento" id="59E541A7-FBA6-2BA3-C86B-5C0DFD0D50E9">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:26:54 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>6B04AE3A-6B55-8BF5-47F5-8B9CAA69BA7B</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="22252337-457D-F09F-1B29-19F576DE501D">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>A2E2D948-5494-4A8F-77B8-E312C1CFDA6F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasaporte" id="20819DF5-538D-7F91-14CB-2E47530BF12E">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>7A896A17-65A2-9B79-6D55-E3A95A500181</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -86,15 +86,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1230B4A7-32AD-ABBB-BA27-C49E7211848F" name="carga_PK">
+<ind_PK_UK id="A64F9145-7299-E98C-5375-F07D11C4BA91" name="CARGAS_PK">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:27:40 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>31581E66-92B2-09EE-7117-A08376B46106</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="58910624-9BC9-DC63-69F6-59136305E115"/>
+<colUsage columnID="D371911A-F538-87DF-5AA4-BA37833DEB56"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

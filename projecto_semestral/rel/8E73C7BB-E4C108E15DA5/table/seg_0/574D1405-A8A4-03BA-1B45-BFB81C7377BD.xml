@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="574D1405-A8A4-03BA-1B45-BFB81C7377BD" name="SOLICITANTE">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>8E32B990-D612-EBDF-399E-CB9FEA057274</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="366E787F-1B5C-9E4A-CD55-D994F9B8EFCD">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>887E7D91-F215-682D-F4C2-8CFD2DA5F678</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="B3F29021-ECD4-F0AC-73BC-41302C0FE7BB">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>31636A31-332A-298E-00BE-7C98D830CE5C</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="4210CC7D-6506-3EBC-FA57-688972959E1C">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>D98CA12B-CC12-49FD-C604-115BDA240D8B</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="CEE551D5-371A-A838-2C80-EACF110F3D30">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>D2455978-3D77-8337-4091-2BC1D8CBBB5F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_paterno" id="9B299B48-63B6-7844-7B5A-FD34F61D4C35">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>EF014CEB-8BA8-F524-FDC8-E81351090A19</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_materno" id="612F089D-9ABD-A7A1-F11B-2CE2E3E8B00C">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>1C91B0B0-CE9A-10A6-C730-FFA6149D9D3D</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="8E68AD24-53D6-AEC9-B8EE-DA8B1CCA7EA8">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>CBC65936-4EBB-0BCA-6859-AE255B6F13A7</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="8F4FCD73-03A9-35DF-D1D5-A4183E60AB04">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>5B98B138-DF6B-EA8A-9619-E7256FC56E42</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasaporte" id="BEE87514-34DB-C1C6-1743-322656499561">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>DFE94021-123F-7727-77C9-4597CAD319E9</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pretension_sueldo" id="E3D0D9AB-B5D0-DD66-99B3-5D8D8DC47374">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>37DDEFBE-D6A8-596F-1E10-8902E06EA628</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="65BBC319-28BB-896C-CC48-44F8219B1A75">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>BEEA646C-AE8E-2B20-2825-6C29B4F713E0</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curriculum" id="CB04581D-9940-EDB9-5F6D-580AA07075AB">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>F36FA89B-50A6-7BE2-CE07-124AB87A3FAC</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="E7A114FE-5561-EAC9-4297-9A41EAC1A545">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>53BFE25D-864E-7D88-0E35-9EE907D219B4</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_socio" id="29D17FA9-A9AE-93F6-5148-B4D419CA6E69">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>C192741B-7B47-F321-4BB6-DCCBD871089E</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO_nombre_genero" id="446A08EA-F411-520B-6FCC-8D3D9CCD4628">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>246CB6AF-0AE7-8190-4834-A30E05B80CDF</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E956137C-149A-31E1-602C-797C28DB37BF" referredColumn="E40F4D46-0173-DA90-0E55-4BC763234AC4"/>
+</associations>
+</Column>
+<Column name="activo" id="DE05DC33-0CD2-B32F-78C8-F03D74B17848">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>C3C4B32B-04A9-7E40-16CA-73A2AA2E876E</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCAPACIDAD_id" id="6AEFB452-6B02-997D-563E-B7881AAE2091">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>501A4652-1CDE-B006-74DC-0C9422FEF3AF</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F9F471E-CDEF-298A-2C40-8ABE0B9770BB" referredColumn="15C3B22B-E3D8-FE67-F887-FB422BD00376"/>
+</associations>
+</Column>
+<Column name="COMUNA_id" id="83E20162-15F6-66C0-2E64-A4D123C88C13">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>4596BDC1-F078-02A0-6BFD-C38D13E3E743</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="903F3FCC-829D-72A6-A5DF-17B162B14D74" referredColumn="82F921DA-C85C-7E51-2AF7-47513E9CA2E6"/>
+</associations>
+</Column>
+<Column name="NACIONALIDAD_id" id="FA43829B-6309-1469-8E5D-FFF1C1CB96E5">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>568B3D91-98E9-0CF5-1555-01C538E68F5D</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C866A001-80C8-F194-A9C3-5377D00A601E" referredColumn="536BBC6D-13EE-C941-8C23-2D96DEB0A4E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24765534-5857-A338-8CF3-3DA448D8F34D" name="SOLICITANTE_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>A9530665-0F41-FBE7-806C-9765F7341CEB</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="366E787F-1B5C-9E4A-CD55-D994F9B8EFCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFB38256-C6E1-7B6E-987F-E3053E6396F5" name="SOLICITANTE_GENERO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>9B151180-F5B0-F1DE-41FE-76AEF5AE8697</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="446A08EA-F411-520B-6FCC-8D3D9CCD4628"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14A879ED-14B6-9FE9-2913-F6DE66E2FA58" name="SOLICITANTE_DISCAPACIDAD_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>1A91D94E-EBDD-3D3B-77E6-48029F9C5EBF</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AEFB452-6B02-997D-563E-B7881AAE2091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA5D9453-F8AE-F733-AAB0-2DA210790782" name="SOLICITANTE_COMUNA_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>3C344BF1-E71E-9173-A86B-489EF56D510D</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83E20162-15F6-66C0-2E64-A4D123C88C13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51FB7EE4-A9B9-99C3-7F9A-E29B3354C458" name="SOLICITANTE_NACIONALIDAD_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>14574455-D818-111A-2E11-F9261550EC5A</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA43829B-6309-1469-8E5D-FFF1C1CB96E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

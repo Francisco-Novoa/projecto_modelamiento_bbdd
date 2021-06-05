@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DE1AD4E-9C1F-B7BD-D2DE-98DDA1D9CBFF" name="TIPO_PARENTESCO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>DBF5A32D-D5E9-8185-DE16-AE01C0074C18</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="820AA26D-1BDC-68A5-4D91-C910346E11BA">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>BE718FC7-3283-6AD2-FC2F-9B6F1293AAAF</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E172D281-C2E2-0078-FCB5-1851906929AE">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>543B73BA-A02D-8B6F-88E7-C853B2163A87</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2DA0365-9C87-A205-0B22-DCC757CA37FF" name="TIPO_PARENTESCO_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>BA08B8F2-E805-C4E4-0A40-BEDFC7ACA6B2</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="820AA26D-1BDC-68A5-4D91-C910346E11BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

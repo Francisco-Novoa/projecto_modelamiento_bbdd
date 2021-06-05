@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E0642BE-846A-FB79-0650-B6B895C743DB" name="VEHICULO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>9D9476FE-41A4-2E33-96AF-DD5239282D85</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="patente" id="54681947-FC3A-2BFA-B882-9710D7B8D5A3">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>3263B3CE-295E-7EF5-0906-4F824A1ED97A</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_chasis" id="35219790-52D7-01EF-0CC1-49DAB79DFAEF">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>EE839616-330C-34F6-463D-81093B617A77</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_motor" id="5B75C2F2-BE40-EEA0-EB90-DE28B827784E">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>3F1E68AD-0691-2127-7D4F-75CC44C30921</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="6AF9D7D1-B7A3-CB42-2E56-040E7325FC48">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>E04177BE-CEC2-6C2A-BA16-E236A2F5A0CC</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO_id" id="EADC9FDA-CA5D-13AD-B673-F8DCCCD7E891">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>CDFE34A4-F530-88D0-07A2-C6E7D6582BDD</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED971C75-B29E-A89D-06F6-DA86CD86468D" referredColumn="D30C6483-B78C-EE25-E289-DC3E5289A0E2"/>
+</associations>
+</Column>
+<Column name="SOLICITANTE_id" id="603D42A5-9547-49A1-5BD0-6D03404A6479">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>3BB03ECD-D013-734E-56DC-FBBE5F13BB85</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD9DA3EE-EEBC-42A1-4906-07D60BDCC0DD" referredColumn="366E787F-1B5C-9E4A-CD55-D994F9B8EFCD"/>
+</associations>
+</Column>
+<Column name="TIPO_VEHICULO_id" id="6FAC8DD8-0290-4DF0-C733-321C8651D419">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>98941978-D775-A84C-208F-74304F7E8595</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9FF1328-C7E3-8DBC-5566-34D53E54894A" referredColumn="33C54218-4C04-68BA-D665-5083CB9D2E77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="475B26F9-34B1-AE24-E27F-DD6308794258" name="VEHICULO_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>24D7FA06-EF42-6EF6-31F0-0FA3C1354C0C</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54681947-FC3A-2BFA-B882-9710D7B8D5A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42E9C4ED-5BBB-98D6-3C83-1471607B5C8D" name="VEHICULO_MODELO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>A44DDC4A-1B4B-1569-EFCB-2322E5869322</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EADC9FDA-CA5D-13AD-B673-F8DCCCD7E891"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67228618-FDDF-4EB5-9786-DD3DAA4041A9" name="VEHICULO_SOLICITANTE_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>22642349-426C-C3AF-CE16-EB53E60C460F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="603D42A5-9547-49A1-5BD0-6D03404A6479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E85502A-9D30-5017-4734-332EAF611BB8" name="VEHICULO_TIPO_VEHICULO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>F313E457-C86F-2FEF-DCF1-9BF7B16AF9A5</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FAC8DD8-0290-4DF0-C733-321C8651D419"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

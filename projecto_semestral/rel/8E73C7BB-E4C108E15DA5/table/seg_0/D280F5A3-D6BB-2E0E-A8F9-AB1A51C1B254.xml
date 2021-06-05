@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D280F5A3-D6BB-2E0E-A8F9-AB1A51C1B254" name="COMUNA">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>933A5207-A0F4-F13B-43BB-A398950947B8</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="82F921DA-C85C-7E51-2AF7-47513E9CA2E6">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[1]]></commentInRDBMS>
+<generatorID>9EF68C90-5D3B-4BEF-BB1B-A873DD6D569B</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E38E8082-05D7-7F65-2BB1-BBB7F1F8EAA0">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[san pedro de la paz eg]]></commentInRDBMS>
+<generatorID>79B14441-33E2-22F9-8972-7C8E6A0FC238</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCIA_id" id="C0A965B3-16ED-31C3-7C11-8FF4CA2E1F7A">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>678221B8-0D2C-5DE2-A722-15D180C61D31</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="507B70E2-F0DD-D831-33F6-A55D2C275004" referredColumn="57A4566E-FCAB-97B2-C703-F3C58108487A"/>
+</associations>
+</Column>
+<Column name="PROVINCIA_id1" id="A8AF4C38-AD0A-4D6B-1F02-BEE8D0BCBE4A">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>922ED90E-C61A-1BBF-4838-B1820250E650</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="507B70E2-F0DD-D831-33F6-A55D2C275004" referredColumn="09682596-8748-BBDF-8BFF-922018DBC206"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F35BB483-5CC5-BBA4-877E-69FE2E7764C8" name="COMUNA_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>7025868B-A380-9535-8316-8E4DE7F4E37F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82F921DA-C85C-7E51-2AF7-47513E9CA2E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5BEFB9A-4C43-636F-5745-682B71733145" name="COMUNA_PROVINCIA_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>9185ACE1-13B5-D79C-C845-BEA55D76298E</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0A965B3-16ED-31C3-7C11-8FF4CA2E1F7A"/>
+<colUsage columnID="A8AF4C38-AD0A-4D6B-1F02-BEE8D0BCBE4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

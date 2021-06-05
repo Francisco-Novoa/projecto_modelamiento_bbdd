@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A38449A-C617-BE7D-B8AF-F263F820EE1C" name="TRANSFERENCIA">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>44A64339-EB8A-2A3A-4142-A13AEF8F575C</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="36EAF62A-C827-B577-3E78-4E7EDDD75131">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>21945450-81DB-0392-F2DE-E9BD72380330</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="93E153E0-9C38-0C45-3941-42FEECBBF744">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>07225D00-D5C3-CB9D-7104-DB7B1FBEAD54</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_cheque" id="CD641D1D-60EB-9340-C891-117EFDBD508F">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>24E28F6A-9DD4-11EE-8DBE-17A975E122DE</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLICITANTE_id" id="C7FFA7FA-C7B0-5DEE-3B9A-8C4BBAD283AF">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>24E7CF59-B1C4-6336-BC4C-FD3720FFECA6</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A43F427B-34EA-60F3-CDB1-423727130E97" referredColumn="366E787F-1B5C-9E4A-CD55-D994F9B8EFCD"/>
+</associations>
+</Column>
+<Column name="BANCO_id" id="DA092A29-0763-9F8B-B4EE-CFC744D53083">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>2C4116BB-A57C-C629-E456-324A2C88E329</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="352E4BE8-C8C3-6F3B-4CE4-AE5B7C7EBC8A" referredColumn="F6F176AE-C68A-AC66-98DA-CBC9FAA3DD51"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35CC69D6-EE37-3D63-4382-8000B37DB011" name="TRANSFERENCIA_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>24E35598-A3FB-67FF-99D8-D8AED87583A3</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36EAF62A-C827-B577-3E78-4E7EDDD75131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C48F123-E68F-BB8C-30FE-74B40FA10FE8" name="TRANSFERENCIA_SOLICITANTE_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>36E71AF5-80E9-66A6-5511-139C36495AC3</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7FFA7FA-C7B0-5DEE-3B9A-8C4BBAD283AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D76777E3-51CD-05C5-D682-D0F7A5A0DD34" name="TRANSFERENCIA_BANCO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>751068E5-293C-449A-4EED-E316D58B1456</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA092A29-0763-9F8B-B4EE-CFC744D53083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B091A7A5-F258-E741-F0EF-67CE0A50999A" name="BENEFICIO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>E15B2CE0-1F59-BC75-1962-D3E750F5B51B</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="18C3DFB6-6861-CC33-D627-F4BFB61F5F58">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>A78D4F48-D858-A98A-B58A-61D7767D2B51</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D9CB2065-42F6-AD8E-D108-489D77A4C6AB">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>9D08361D-F54B-FB4C-DAA0-7E131A5746B7</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA_id" id="D4CD5D79-F7F6-978D-FBB2-5BE27CB070C1">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>578021FC-6835-40EF-4226-D461626FC244</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="021CBFB5-0B1E-C5D9-64C0-DB21E1C509DD" referredColumn="0B836843-C285-6B76-0A1E-304BC6BD5ED4"/>
+</associations>
+</Column>
+<Column name="TIPO_BENEFICIO_id" id="BA475724-9C82-60D4-6CBE-C2CE08B1C5F8">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>0B362898-2C6B-E4D6-5E28-983D41B084F3</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42381C17-2526-C2BC-E86A-A8A0F7F6110C" referredColumn="263AE73F-0CDD-DC15-2636-C64F6B10485D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="067DA6AE-A691-B264-7A00-304590479656" name="BENEFICIO_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>57608903-6A44-AAB8-ECA1-2801C6483D91</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18C3DFB6-6861-CC33-D627-F4BFB61F5F58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A62B743F-1208-4EC1-5D5A-098FA1414383" name="BENEFICIO_EMPRESA_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>6EB92626-1AFE-5727-4FA8-58E70CFA75C5</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4CD5D79-F7F6-978D-FBB2-5BE27CB070C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52BDAC7C-7229-1EE1-0DC1-007AA1A9D140" name="BENEFICIO_TIPO_BENEFICIO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>2D7044C7-758A-2FC1-7692-7324A5E415DA</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA475724-9C82-60D4-6CBE-C2CE08B1C5F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

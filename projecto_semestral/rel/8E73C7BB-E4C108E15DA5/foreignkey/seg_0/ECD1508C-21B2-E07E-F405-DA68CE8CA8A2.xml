@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ECD1508C-21B2-E07E-F405-DA68CE8CA8A2" containerWithKeyObject="F654BB15-1DC3-FDC7-AAC7-7285F6E9F214" localFKIndex="6A8BDE75-C8A9-F49C-E395-B644E9E771C6" name="FORMA_DE_PAGO_TRANSFERENCIA_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>147E77E6-248F-6764-2FB5-CABD093BCAF0</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<referredTableLongName>TRANSFERENCIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A38449A-C617-BE7D-B8AF-F263F820EE1C</referredTableID>
+<keyObject>35CC69D6-EE37-3D63-4382-8000B37DB011</keyObject>
+<referredKeyID>35CC69D6-EE37-3D63-4382-8000B37DB011</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

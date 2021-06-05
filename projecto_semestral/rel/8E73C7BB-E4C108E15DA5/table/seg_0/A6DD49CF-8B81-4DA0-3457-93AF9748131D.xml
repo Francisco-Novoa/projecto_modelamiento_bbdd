@@ -1,16 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D62D07E3-F363-8048-31DD-69DCA72A2F9F" name="tipo_vehiculo">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6DD49CF-8B81-4DA0-3457-93AF9748131D" name="GENERO">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:40:03 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>9D856988-F130-09EB-3B32-D08D0E382427</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
-<ordsAlias>table_18</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="nombre" id="8951AFF4-C125-BC05-2846-F0A9E3D10B72">
+<Column name="nombre_genero" id="E40F4D46-0173-DA90-0E55-4BC763234AC4">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:40:31 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>20F2E34D-ABE9-A68E-6718-B8B4ABB05505</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -18,15 +19,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C7B981AE-6BC5-B9E2-4EB6-91C20EC8B503" name="tipo_vehiculo_PK">
+<ind_PK_UK id="DB98CC27-88B0-62E5-B00A-087B8A6C0AF3" name="GENERO_PK">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-05-09 20:40:31 UTC</createdTime>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>3C358CD3-D3E6-B657-6833-34A7BDE3C065</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8951AFF4-C125-BC05-2846-F0A9E3D10B72"/>
+<colUsage columnID="E40F4D46-0173-DA90-0E55-4BC763234AC4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

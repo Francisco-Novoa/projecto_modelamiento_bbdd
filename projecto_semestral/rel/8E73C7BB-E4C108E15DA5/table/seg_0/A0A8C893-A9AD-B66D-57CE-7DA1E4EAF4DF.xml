@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0A8C893-A9AD-B66D-57CE-7DA1E4EAF4DF" name="PROVINCIA">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>DACA1082-78AA-1884-B0E9-5DFDFBBF6974</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="57A4566E-FCAB-97B2-C703-F3C58108487A">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>86FBE2BE-F6B7-AC89-E779-D9884376BFA1</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="49E0A581-671E-BE13-4486-5BB942D5EF1D">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>BE5A6B1F-75C9-A8F9-7A65-98DF49EC2B6D</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_id" id="09682596-8748-BBDF-8BFF-922018DBC206">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>5483F7BA-0AA8-FEFA-6BAE-7E47F24BD2AC</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A5ACA55-95AD-EED3-E04C-1717777B9367" referredColumn="299EB242-97A4-F512-992C-4046DA03B04C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E873A5C8-EB53-1007-54B6-B4B34B1B59E5" name="PROVINCIA_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>D00288B2-F0BF-5B80-AB13-72F09CE105B3</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57A4566E-FCAB-97B2-C703-F3C58108487A"/>
+<colUsage columnID="09682596-8748-BBDF-8BFF-922018DBC206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA3CB48D-106A-5710-3C4F-F7928576BAAF" name="PROVINCIA_REGION_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:52:35 UTC</createdTime>
+<generatorID>33A4F663-2358-7132-B6BB-F972F0ADE8D1</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09682596-8748-BBDF-8BFF-922018DBC206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
