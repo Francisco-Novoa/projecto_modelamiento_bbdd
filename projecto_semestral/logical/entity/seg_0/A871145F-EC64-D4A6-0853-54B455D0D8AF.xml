@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A871145F-EC64-D4A6-0853-54B455D0D8AF" name="CARGAS">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:55:15 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8815EC23-218D-BDAF-CF3F-A23FCF43DE9F">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:59:15 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer_nombre" id="07DFF5ED-3969-7D81-21D1-61EAD88D6009">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:59:06 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo_nombre" id="CA999B57-140C-49B5-C913-338C3BC9B876">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:59:06 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer_paterno" id="0BD8695A-DC34-19BC-FA29-162105048454">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:59:06 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo_materno" id="B3AC94EF-FD16-FFC6-E582-DE0BBBA1637D">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:59:06 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="6B04AE3A-6B55-8BF5-47F5-8B9CAA69BA7B">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:59:06 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="A2E2D948-5494-4A8F-77B8-E312C1CFDA6F">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:59:06 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pasaporte" id="7A896A17-65A2-9B79-6D55-E3A95A500181">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:59:06 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31581E66-92B2-09EE-7117-A08376B46106" name="CARGAS PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:55:26 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8815EC23-218D-BDAF-CF3F-A23FCF43DE9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

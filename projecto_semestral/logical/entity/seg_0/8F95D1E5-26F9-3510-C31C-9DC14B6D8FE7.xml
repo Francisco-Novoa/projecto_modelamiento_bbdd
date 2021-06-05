@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="933A5207-A0F4-F13B-43BB-A398950947B8" name="COMUNA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F95D1E5-26F9-3510-C31C-9DC14B6D8FE7" name="PARENTESCO">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:09:03 UTC</createdTime>
+<createdTime>2021-06-05 23:00:43 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
@@ -15,64 +15,55 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="9EF68C90-5D3B-4BEF-BB1B-A873DD6D569B">
+<Attribute name="id_PARENTESCO" id="338E3C8F-A6B5-6492-E321-DA0744158F88">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:19:09 UTC</createdTime>
-<commentInRDBMS><![CDATA[1]]></commentInRDBMS>
+<createdTime>2021-06-05 23:02:20 UTC</createdTime>
+<generatorID>DA0EBE0A-9D36-E340-26CF-E7A4BDA7751B</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
+<referedAttribute>887E7D91-F215-682D-F4C2-8CFD2DA5F678</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="79B14441-33E2-22F9-8972-7C8E6A0FC238">
+<Attribute name="id_CARGA" id="7A2EA235-3288-7F4D-CF4D-A7AC67A1EB2F">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:17:24 UTC</createdTime>
-<commentInRDBMS><![CDATA[san pedro de la paz eg]]></commentInRDBMS>
+<createdTime>2021-06-05 23:02:35 UTC</createdTime>
+<generatorID>502137F1-ED35-A83E-152D-33350455A7C1</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
+<referedAttribute>8815EC23-218D-BDAF-CF3F-A23FCF43DE9F</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="678221B8-0D2C-5DE2-A722-15D180C61D31">
+<Attribute name="id" id="B33ABB52-E0F3-9253-DE55-1F1EB2B06CDD">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:54:07 UTC</createdTime>
-<generatorID>9185ACE1-13B5-D79C-C845-BEA55D76298E</generatorID>
+<createdTime>2021-06-05 23:04:06 UTC</createdTime>
+<generatorID>347FE8C7-8708-ED11-F10C-AAAF674E5C01</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<referedAttribute>86FBE2BE-F6B7-AC89-E779-D9884376BFA1</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id11" id="922ED90E-C61A-1BBF-4838-B1820250E650">
-<createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:54:13 UTC</createdTime>
-<generatorID>9185ACE1-13B5-D79C-C845-BEA55D76298E</generatorID>
-<ownerDesignName>projecto_semestral</ownerDesignName>
-<engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
-</engineerTo>
-<referedAttribute>5483F7BA-0AA8-FEFA-6BAE-7E47F24BD2AC</referedAttribute>
+<referedAttribute>BE718FC7-3283-6AD2-FC2F-9B6F1293AAAF</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7025868B-A380-9535-8316-8E4DE7F4E37F" name="comuna PK">
+<identifier id="A8583B13-60A5-96A4-62C0-D7F9B5A23F8D" name="PARENTESCO PK">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:17:30 UTC</createdTime>
+<createdTime>2021-06-05 23:03:06 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9EF68C90-5D3B-4BEF-BB1B-A873DD6D569B</attributeRef>
+<attributeRef>338E3C8F-A6B5-6492-E321-DA0744158F88</attributeRef>
+<attributeRef>7A2EA235-3288-7F4D-CF4D-A7AC67A1EB2F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

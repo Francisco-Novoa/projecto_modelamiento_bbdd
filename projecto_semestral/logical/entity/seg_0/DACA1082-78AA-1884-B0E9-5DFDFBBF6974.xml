@@ -35,6 +35,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="5483F7BA-0AA8-FEFA-6BAE-7E47F24BD2AC">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 22:54:13 UTC</createdTime>
+<generatorID>33A4F663-2358-7132-B6BB-F972F0ADE8D1</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<referedAttribute>85BC9EF7-E3EF-A9A3-1D23-B8B48652B136</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D00288B2-F0BF-5B80-AB13-72F09CE105B3" name="PROVINCIA PK">
@@ -47,6 +59,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>86FBE2BE-F6B7-AC89-E779-D9884376BFA1</attributeRef>
+<attributeRef>5483F7BA-0AA8-FEFA-6BAE-7E47F24BD2AC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

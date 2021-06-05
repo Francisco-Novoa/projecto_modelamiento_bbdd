@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8CE11CA-24BC-7D07-F5E9-08906AD81075" name="DISCAPACIDAD">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A85C4D28-A31A-5B47-1555-D8FD2366760F" name="TIPO_BENEFICIO">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:10:48 UTC</createdTime>
+<createdTime>2021-06-05 23:05:36 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="CFE334D1-0F25-A7E9-FEF6-8AAFD902A9EF">
+<Attribute name="id" id="8CA327B1-3FAA-4005-D87F-BF9C2BB9CF89">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:16:52 UTC</createdTime>
+<createdTime>2021-06-05 23:11:47 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="CE803139-AC4D-CF01-5674-1249DD02F7CE">
+<Attribute name="nombre" id="2A806895-B4A3-BD6D-96B7-5E2A628EA99D">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:16:54 UTC</createdTime>
+<createdTime>2021-06-05 23:11:57 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
@@ -37,16 +37,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2ED3F8AD-0202-45BA-8E5E-BE5BBFA70F5A" name="discapacidad PK">
+<identifier id="27BFB786-7E6F-6BDE-908A-DAC8506700B1" name="TIPO_BENEFICIO PK">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:16:53 UTC</createdTime>
+<createdTime>2021-06-05 23:11:56 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>CFE334D1-0F25-A7E9-FEF6-8AAFD902A9EF</attributeRef>
+<attributeRef>8CA327B1-3FAA-4005-D87F-BF9C2BB9CF89</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

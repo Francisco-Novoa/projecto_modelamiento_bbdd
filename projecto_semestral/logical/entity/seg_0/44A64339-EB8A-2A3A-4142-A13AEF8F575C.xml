@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="933A5207-A0F4-F13B-43BB-A398950947B8" name="COMUNA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44A64339-EB8A-2A3A-4142-A13AEF8F575C" name="TRANSFERENCIA">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:09:03 UTC</createdTime>
+<createdTime>2021-06-05 23:21:52 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
@@ -15,10 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="9EF68C90-5D3B-4BEF-BB1B-A873DD6D569B">
+<Attribute name="id" id="21945450-81DB-0392-F2DE-E9BD72380330">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:19:09 UTC</createdTime>
-<commentInRDBMS><![CDATA[1]]></commentInRDBMS>
+<createdTime>2021-06-05 23:22:00 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
@@ -26,10 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="79B14441-33E2-22F9-8972-7C8E6A0FC238">
+<Attribute name="fecha" id="07225D00-D5C3-CB9D-7104-DB7B1FBEAD54">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:17:24 UTC</createdTime>
-<commentInRDBMS><![CDATA[san pedro de la paz eg]]></commentInRDBMS>
+<createdTime>2021-06-05 23:22:41 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
@@ -37,42 +35,54 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="678221B8-0D2C-5DE2-A722-15D180C61D31">
+<Attribute name="numero_cheque" id="24E28F6A-9DD4-11EE-8DBE-17A975E122DE">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:54:07 UTC</createdTime>
-<generatorID>9185ACE1-13B5-D79C-C845-BEA55D76298E</generatorID>
+<createdTime>2021-06-05 23:23:42 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<referedAttribute>86FBE2BE-F6B7-AC89-E779-D9884376BFA1</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id11" id="922ED90E-C61A-1BBF-4838-B1820250E650">
+<Attribute name="id1" id="24E7CF59-B1C4-6336-BC4C-FD3720FFECA6">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:54:13 UTC</createdTime>
-<generatorID>9185ACE1-13B5-D79C-C845-BEA55D76298E</generatorID>
+<createdTime>2021-06-05 23:25:07 UTC</createdTime>
+<generatorID>36E71AF5-80E9-66A6-5511-139C36495AC3</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<referedAttribute>5483F7BA-0AA8-FEFA-6BAE-7E47F24BD2AC</referedAttribute>
+<referedAttribute>887E7D91-F215-682D-F4C2-8CFD2DA5F678</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="2C4116BB-A57C-C629-E456-324A2C88E329">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:29:49 UTC</createdTime>
+<generatorID>751068E5-293C-449A-4EED-E316D58B1456</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DE636230-366A-97C1-9FA6-D5866BD09EEB</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7025868B-A380-9535-8316-8E4DE7F4E37F" name="comuna PK">
+<identifier id="24E35598-A3FB-67FF-99D8-D8AED87583A3" name="PAGOS PK">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:17:30 UTC</createdTime>
+<createdTime>2021-06-05 23:22:20 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9EF68C90-5D3B-4BEF-BB1B-A873DD6D569B</attributeRef>
+<attributeRef>21945450-81DB-0392-F2DE-E9BD72380330</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

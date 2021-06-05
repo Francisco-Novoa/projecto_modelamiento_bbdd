@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D9476FE-41A4-2E33-96AF-DD5239282D85" name="VEHICULO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:13:12 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="patente" id="3263B3CE-295E-7EF5-0906-4F824A1ED97A">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:13:25 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_chasis" id="EE839616-330C-34F6-463D-81093B617A77">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:13:56 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_motor" id="3F1E68AD-0691-2127-7D4F-75CC44C30921">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:14:10 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="E04177BE-CEC2-6C2A-BA16-E236A2F5A0CC">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:14:15 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="CDFE34A4-F530-88D0-07A2-C6E7D6582BDD">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:16:54 UTC</createdTime>
+<generatorID>A44DDC4A-1B4B-1569-EFCB-2322E5869322</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<referedAttribute>9F1B7479-E8DB-D83D-5E89-A8FE903F76F0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="3BB03ECD-D013-734E-56DC-FBBE5F13BB85">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:16:59 UTC</createdTime>
+<generatorID>22642349-426C-C3AF-CE16-EB53E60C460F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<referedAttribute>887E7D91-F215-682D-F4C2-8CFD2DA5F678</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="98941978-D775-A84C-208F-74304F7E8595">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:17:23 UTC</createdTime>
+<generatorID>F313E457-C86F-2FEF-DCF1-9BF7B16AF9A5</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<referedAttribute>D56B2B70-049F-AA70-89EC-1F5DA7FBA153</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24D7FA06-EF42-6EF6-31F0-0FA3C1354C0C" name="VEHICULO PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-05 23:13:55 UTC</createdTime>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3263B3CE-295E-7EF5-0906-4F824A1ED97A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
