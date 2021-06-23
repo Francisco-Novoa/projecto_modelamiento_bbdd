@@ -18,24 +18,28 @@
 <Attribute name="id" id="9EF68C90-5D3B-4BEF-BB1B-A873DD6D569B">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 22:19:09 UTC</createdTime>
-<commentInRDBMS><![CDATA[1]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="79B14441-33E2-22F9-8972-7C8E6A0FC238">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 22:17:24 UTC</createdTime>
-<commentInRDBMS><![CDATA[san pedro de la paz eg]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Nombre comuna. Ej: San pedro de la paz eg]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="678221B8-0D2C-5DE2-A722-15D180C61D31">
 <createdBy>FranciscoNovoa</createdBy>
@@ -46,19 +50,22 @@
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
 <referedAttribute>86FBE2BE-F6B7-AC89-E779-D9884376BFA1</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id11" id="922ED90E-C61A-1BBF-4838-B1820250E650">
-<createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 22:54:13 UTC</createdTime>
+<Attribute name="id11" id="1ECE5E73-7E38-0EBD-0091-BE0838489B84">
+<createdBy>ignac</createdBy>
+<createdTime>2021-06-23 22:01:03 UTC</createdTime>
 <generatorID>9185ACE1-13B5-D79C-C845-BEA55D76298E</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<referedAttribute>5483F7BA-0AA8-FEFA-6BAE-7E47F24BD2AC</referedAttribute>
-<use>0</use>
+<referedAttribute>7104C50C-7FEB-4FC8-DA4B-E24C8E077BC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

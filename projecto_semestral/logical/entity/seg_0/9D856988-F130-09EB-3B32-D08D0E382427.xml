@@ -18,12 +18,18 @@
 <Attribute name="nombre_genero" id="20F2E34D-ABE9-A68E-6718-B8B4ABB05505">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 22:15:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[F = Femenino
+M= Masculino
+En caso de que se quieran agregar minorias sexuales, se podran agregar letras nuevas.]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

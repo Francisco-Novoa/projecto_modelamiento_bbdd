@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha" id="07225D00-D5C3-CB9D-7104-DB7B1FBEAD54">
@@ -32,7 +34,9 @@
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="numero_cheque" id="24E28F6A-9DD4-11EE-8DBE-17A975E122DE">
@@ -43,20 +47,11 @@
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id1" id="24E7CF59-B1C4-6336-BC4C-FD3720FFECA6">
-<createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 23:25:07 UTC</createdTime>
-<generatorID>36E71AF5-80E9-66A6-5511-139C36495AC3</generatorID>
-<ownerDesignName>projecto_semestral</ownerDesignName>
-<engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
-</engineerTo>
-<referedAttribute>887E7D91-F215-682D-F4C2-8CFD2DA5F678</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id2" id="2C4116BB-A57C-C629-E456-324A2C88E329">
 <createdBy>FranciscoNovoa</createdBy>
@@ -68,7 +63,22 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>DE636230-366A-97C1-9FA6-D5866BD09EEB</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="43788E2F-D638-D54A-E056-42EF17600E51">
+<createdBy>ignac</createdBy>
+<createdTime>2021-06-23 21:31:43 UTC</createdTime>
+<generatorID>36E71AF5-80E9-66A6-5511-139C36495AC3</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<engineerTo>
+<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+</engineerTo>
+<referedAttribute>887E7D91-F215-682D-F4C2-8CFD2DA5F678</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

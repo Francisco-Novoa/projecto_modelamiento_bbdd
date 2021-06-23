@@ -22,29 +22,39 @@
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="86EDD889-7F2D-0D46-AD93-B1108D6170EB">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 22:16:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del telefono
+Ej: Oficina, casa, celular, etc.]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="9E170EA1-8447-4889-5080-83A50A8A48F1">
-<createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 23:49:12 UTC</createdTime>
+<Attribute name="id" id="959B583F-68AD-9DD8-6371-918D2DB57FD7">
+<createdBy>ignac</createdBy>
+<createdTime>2021-06-23 21:31:43 UTC</createdTime>
 <generatorID>B75D487A-21C8-2D10-B29C-F4EE9B630408</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
 <referedAttribute>887E7D91-F215-682D-F4C2-8CFD2DA5F678</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

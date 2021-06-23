@@ -22,18 +22,25 @@
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="7A40E465-DE81-FD76-4DF7-1447352F9F7F">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 23:31:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre motivo de pago
+Mensualidad, inscripcion.]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="E5266113-C373-672C-E2B4-8FA3DD2C8AB7">
 <createdBy>FranciscoNovoa</createdBy>
@@ -44,7 +51,9 @@
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
 <referedAttribute>21945450-81DB-0392-F2DE-E9BD72380330</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -58,7 +67,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E9BFEA59-AEB3-43C6-1B51-A424BCC99DBA</attributeRef>
 <attributeRef>01CACA3C-8B80-954C-D288-33BFA18A8EBA</attributeRef>
 </usedAttributes>
 </identifier>

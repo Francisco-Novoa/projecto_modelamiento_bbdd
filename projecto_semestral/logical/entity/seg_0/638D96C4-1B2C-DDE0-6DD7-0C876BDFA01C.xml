@@ -18,24 +18,30 @@
 <Attribute name="id" id="64AAC618-883A-266C-4A01-29783A8CFC9F">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 23:24:59 UTC</createdTime>
-<commentInRDBMS><![CDATA[efectivo, tarjeta, cheque
+<commentInRDBMS><![CDATA[
 ]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="E3F74E1F-E625-3FD1-A0A0-4E814063D794">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 23:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Formas de pago. Ej: efectivo, tarjeta, cheque]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="F55F955D-69D7-732C-4E7A-8C36A82C1D6F">
 <createdBy>FranciscoNovoa</createdBy>
@@ -46,7 +52,9 @@
 <item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
 </engineerTo>
 <referedAttribute>21945450-81DB-0392-F2DE-E9BD72380330</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
