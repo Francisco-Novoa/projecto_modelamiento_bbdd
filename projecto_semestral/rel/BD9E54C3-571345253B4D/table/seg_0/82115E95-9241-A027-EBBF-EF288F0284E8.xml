@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82115E95-9241-A027-EBBF-EF288F0284E8" name="TELEFONO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>23EDF965-E3D0-635D-5E12-C1DDF4117A24</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero" id="54A6C346-26A3-AE4B-C3EB-89B06ADB245F">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>2BE4D89A-9C96-40EB-D82D-E4C93574149D</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="12B60E27-32DC-A0B6-5256-842AE978D518">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del telefono
+Ej: Oficina, casa, celular, etc.]]></commentInRDBMS>
+<generatorID>86EDD889-7F2D-0D46-AD93-B1108D6170EB</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLICITANTE_id" id="AAB7F15D-F297-640A-E0A6-4FC508C8E797">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>959B583F-68AD-9DD8-6371-918D2DB57FD7</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C99526D0-AA53-03D6-5300-01232F46EF1F" referredColumn="2FEB1B80-F4CE-D681-1DD6-81A40665BC35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1BB11D8-7915-96C2-FA94-21BF2CC0E22A" name="TELEFONO_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>4EA281A8-0C05-59A9-F647-2FA25D5C28AE</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54A6C346-26A3-AE4B-C3EB-89B06ADB245F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="609930AB-C534-2780-C8BD-53AC27D814A7" name="TELEFONO_SOLICITANTE_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>B75D487A-21C8-2D10-B29C-F4EE9B630408</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAB7F15D-F297-640A-E0A6-4FC508C8E797"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1E0D932-83D2-D7FD-469A-63B529AD9797" name="BENEFICIO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>E15B2CE0-1F59-BC75-1962-D3E750F5B51B</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7ECF91EB-CFF5-E34A-6997-DE907ABC8894">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>A78D4F48-D858-A98A-B58A-61D7767D2B51</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4F0B55BD-820F-B854-E7EE-039956AC1FE8">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del beneficio]]></commentInRDBMS>
+<generatorID>9D08361D-F54B-FB4C-DAA0-7E131A5746B7</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA_id" id="B06466EC-3C0E-3D84-EF86-CCB789F5DCD1">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>578021FC-6835-40EF-4226-D461626FC244</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F587117-08DE-E5E0-379A-89C8E3BEE330" referredColumn="1A30A664-A16B-85D1-31FD-9C9A8BF64E87"/>
+</associations>
+</Column>
+<Column name="TIPO_BENEFICIO_id" id="04965302-A94E-F8C3-8776-AC827FB20E43">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>8FB9FB21-F27A-CB8F-56CD-D53ADF5656BF</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F24393F3-085A-9187-EAEB-DF80C316CCBC" referredColumn="B13553D7-6023-E00F-5809-41BAF7656EC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="882A7145-BB10-59B8-E53D-36B0222D1855" name="BENEFICIO_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>57608903-6A44-AAB8-ECA1-2801C6483D91</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ECF91EB-CFF5-E34A-6997-DE907ABC8894"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8290CCF0-DA21-3D3F-77A8-115E7D10944E" name="BENEFICIO_EMPRESA_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>6EB92626-1AFE-5727-4FA8-58E70CFA75C5</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B06466EC-3C0E-3D84-EF86-CCB789F5DCD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D65BD023-1E80-E8CA-538B-DA284A67D89C" name="BENEFICIO_TIPO_BENEFICIO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>2D7044C7-758A-2FC1-7692-7324A5E415DA</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04965302-A94E-F8C3-8776-AC827FB20E43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

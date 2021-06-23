@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="638D96C4-1B2C-DDE0-6DD7-0C876BDFA01C" name="FORMA_DE_PAGO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="638D96C4-1B2C-DDE0-6DD7-0C876BDFA01C" name="FORMA">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 23:22:27 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,7 +22,7 @@
 ]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <commentInRDBMS><![CDATA[Formas de pago. Ej: efectivo, tarjeta, cheque]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +49,7 @@
 <generatorID>147E77E6-248F-6764-2FB5-CABD093BCAF0</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <referedAttribute>21945450-81DB-0392-F2DE-E9BD72380330</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -64,7 +64,7 @@
 <createdTime>2021-06-05 23:25:01 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

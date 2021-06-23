@@ -1,0 +1,328 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CC5910E-ABB6-7FE1-9825-746868E04CBD" name="SOLICITANTE">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>8E32B990-D612-EBDF-399E-CB9FEA057274</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2FEB1B80-F4CE-D681-1DD6-81A40665BC35">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>887E7D91-F215-682D-F4C2-8CFD2DA5F678</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="060F01BF-2DC9-12BF-E93C-FC087621EF5C">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>31636A31-332A-298E-00BE-7C98D830CE5C</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="E8429E35-6A06-9350-6560-DB21AE7B4550">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>D98CA12B-CC12-49FD-C604-115BDA240D8B</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="CB222445-D45B-302C-69E7-E49D8EE6D427">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>D2455978-3D77-8337-4091-2BC1D8CBBB5F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_paterno" id="921DF9FE-D6AB-26EB-C64C-70609ADE7CD7">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>EF014CEB-8BA8-F524-FDC8-E81351090A19</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_materno" id="B42B85F7-CFE0-D450-26EF-503C9D44FF38">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>1C91B0B0-CE9A-10A6-C730-FFA6149D9D3D</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="94F3CCE5-07D2-F76D-E5BE-15040D67DA75">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>CBC65936-4EBB-0BCA-6859-AE255B6F13A7</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="C80AC849-9CB1-352A-57F9-542A2CD6D4E7">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>5B98B138-DF6B-EA8A-9619-E7256FC56E42</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasaporte" id="324F455E-76C9-D462-464B-AC76FE490104">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>DFE94021-123F-7727-77C9-4597CAD319E9</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pretension_sueldo" id="DD826B02-AE2F-F894-DDBD-49D13225673B">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se define 1 como una centesima de peso.]]></commentInRDBMS>
+<generatorID>37DDEFBE-D6A8-596F-1E10-8902E06EA628</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="48C80C3E-DEF9-4D13-C1F4-4062EC4677F2">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>BEEA646C-AE8E-2B20-2825-6C29B4F713E0</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curriculum" id="142970DC-0AEF-DE7B-5A6E-8D173D8C8EFA">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esto representa una URL a bucket de AWS.]]></commentInRDBMS>
+<generatorID>F36FA89B-50A6-7BE2-CE07-124AB87A3FAC</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="5CC5091C-A236-6A85-86E5-4E30DCE598A8">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>53BFE25D-864E-7D88-0E35-9EE907D219B4</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_socio" id="C43EC1ED-BF84-A70B-CE3E-DF5D0F58123E">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>C192741B-7B47-F321-4BB6-DCCBD871089E</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO_nombre_genero" id="6FA93963-1F5C-C124-3840-3E85BC89A726">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>246CB6AF-0AE7-8190-4834-A30E05B80CDF</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFFA809E-51D6-64D5-63D4-CD56EFA72116" referredColumn="BD954F7B-C6AB-7734-A5F6-DC37146CEA9B"/>
+</associations>
+</Column>
+<Column name="activo" id="72F21B95-F0FF-F092-74D6-04345126F611">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sera True si el solicitante ha sido aceptado y esta al dia con sus cuotas.]]></commentInRDBMS>
+<generatorID>C3C4B32B-04A9-7E40-16CA-73A2AA2E876E</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCAPACIDAD_id" id="A82FCF46-D8AA-BF3E-C82A-B8D0943507B5">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>501A4652-1CDE-B006-74DC-0C9422FEF3AF</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="441010BE-E1E8-9F87-3BBA-A72E2E6CE386" referredColumn="3C659E68-E305-5630-AC11-59FC7E41C096"/>
+</associations>
+</Column>
+<Column name="COMUNA_id" id="0E9AE434-E582-D0E3-DF7A-A98B0E623359">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>4596BDC1-F078-02A0-6BFD-C38D13E3E743</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C77DA83-D516-0BC7-2776-96E1700A537A" referredColumn="23808B41-1ADC-A5F5-AA90-D7E318E6A2C3"/>
+</associations>
+</Column>
+<Column name="NACIONALIDAD_id" id="8C505B65-27BE-9E2F-D45E-163DEDACDE57">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>568B3D91-98E9-0CF5-1555-01C538E68F5D</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10A345A2-BB4B-88B5-4421-476DD80319E7" referredColumn="5B8BD6C4-DAC7-8F9A-DAA2-74126D292EF7"/>
+</associations>
+</Column>
+<Column name="aceptado" id="A8FC891B-E6E8-BAC6-3AEE-CD7C84D62554">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sera True si el solicitante es aceptado.]]></commentInRDBMS>
+<generatorID>C05B5E2F-3931-E1A9-34A0-AB36995BCFB1</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9725E44A-84B8-8A52-BC47-01CB117EFC3C" name="SOLICITANTE_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>A9530665-0F41-FBE7-806C-9765F7341CEB</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FEB1B80-F4CE-D681-1DD6-81A40665BC35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26334F2F-21F5-2C97-DCC0-2A3444F8E666" name="SOLICITANTE_GENERO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>9B151180-F5B0-F1DE-41FE-76AEF5AE8697</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FA93963-1F5C-C124-3840-3E85BC89A726"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9FC23A1-BFF1-09AB-D212-2F396C4D112D" name="SOLICITANTE_DISCAPACIDAD_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>1A91D94E-EBDD-3D3B-77E6-48029F9C5EBF</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A82FCF46-D8AA-BF3E-C82A-B8D0943507B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F648080B-7053-E0EC-724B-9C2869EFD45A" name="SOLICITANTE_COMUNA_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>3C344BF1-E71E-9173-A86B-489EF56D510D</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E9AE434-E582-D0E3-DF7A-A98B0E623359"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F0B8698-66EA-D990-3DC9-E48647AD1556" name="SOLICITANTE_NACIONALIDAD_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>14574455-D818-111A-2E11-F9261550EC5A</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C505B65-27BE-9E2F-D45E-163DEDACDE57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

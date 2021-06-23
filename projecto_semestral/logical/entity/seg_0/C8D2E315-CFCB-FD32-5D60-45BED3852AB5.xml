@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8D2E315-CFCB-FD32-5D60-45BED3852AB5" name="MOTIVO_DE_PAGO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8D2E315-CFCB-FD32-5D60-45BED3852AB5" name="MOTIVO">
 <createdBy>FranciscoNovoa</createdBy>
 <createdTime>2021-06-05 23:29:31 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-06-05 23:31:45 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 Mensualidad, inscripcion.]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,7 +48,7 @@ Mensualidad, inscripcion.]]></commentInRDBMS>
 <generatorID>71537A00-26E8-04C1-CD4E-4984BF133495</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <referedAttribute>21945450-81DB-0392-F2DE-E9BD72380330</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -63,7 +63,7 @@ Mensualidad, inscripcion.]]></commentInRDBMS>
 <createdTime>2021-06-05 23:31:42 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

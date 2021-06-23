@@ -4,7 +4,7 @@
 <createdTime>2021-06-05 23:05:14 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-06-05 23:07:49 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <commentInRDBMS><![CDATA[Nombre del beneficio]]></commentInRDBMS>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,23 +47,25 @@
 <generatorID>6EB92626-1AFE-5727-4FA8-58E70CFA75C5</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <referedAttribute>F344CA96-43A0-C444-33B8-7B2978BAE6F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="0B362898-2C6B-E4D6-5E28-983D41B084F3">
+<Attribute name="id2" id="8FB9FB21-F27A-CB8F-56CD-D53ADF5656BF">
 <createdBy>FranciscoNovoa</createdBy>
-<createdTime>2021-06-05 23:12:19 UTC</createdTime>
+<createdTime>2021-06-24 02:21:35 UTC</createdTime>
 <generatorID>2D7044C7-758A-2FC1-7692-7324A5E415DA</generatorID>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <referedAttribute>8CA327B1-3FAA-4005-D87F-BF9C2BB9CF89</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -73,7 +75,7 @@
 <createdTime>2021-06-05 23:08:51 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

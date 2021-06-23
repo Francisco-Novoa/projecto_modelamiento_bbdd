@@ -4,10 +4,11 @@
 <createdTime>2021-06-05 23:31:53 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <sourcePk>24E35598-A3FB-67FF-99D8-D8AED87583A3</sourcePk>
 <identifying>false</identifying>
+<nameOnTarget>TR_FK</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

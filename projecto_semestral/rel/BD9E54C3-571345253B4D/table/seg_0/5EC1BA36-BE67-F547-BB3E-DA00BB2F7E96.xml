@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EC1BA36-BE67-F547-BB3E-DA00BB2F7E96" name="BANCO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>1F2AA89D-E637-D344-A36A-34C9A5561CDE</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4BAD66BE-4F93-C799-8F24-3B28C203AD3C">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>DE636230-366A-97C1-9FA6-D5866BD09EEB</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="9CF042A3-D0C6-E077-54D8-AFCB5EC67D6B">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre banco]]></commentInRDBMS>
+<generatorID>17C21E1C-36CE-734B-72EE-925DEEFC44B6</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A347E11-87C9-6CF4-16DF-4DBC4AC393D2" name="BANCO_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>2270ED26-6246-1B87-BDD5-60BAE9782785</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BAD66BE-4F93-C799-8F24-3B28C203AD3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

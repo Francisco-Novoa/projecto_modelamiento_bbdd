@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E4317AC-10E3-1097-C9CF-707FC10B77A0" name="COMUNA">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>933A5207-A0F4-F13B-43BB-A398950947B8</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="23808B41-1ADC-A5F5-AA90-D7E318E6A2C3">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>9EF68C90-5D3B-4BEF-BB1B-A873DD6D569B</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="20998517-19A9-39A4-580F-9F2AF54296CF">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre comuna. Ej: San pedro de la paz eg]]></commentInRDBMS>
+<generatorID>79B14441-33E2-22F9-8972-7C8E6A0FC238</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCIA_id" id="3344E65A-D8E0-8F33-A2C1-893BAEE6F7F3">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>678221B8-0D2C-5DE2-A722-15D180C61D31</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94FC8D3C-EEA6-D10D-8F1D-47041A14C6DD" referredColumn="F86FC1D1-5CA9-B6EF-D20C-C46283EDA84A"/>
+</associations>
+</Column>
+<Column name="PROVINCIA_id1" id="7BF72FDE-1001-B519-DF4D-CD5D9689C522">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>1ECE5E73-7E38-0EBD-0091-BE0838489B84</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94FC8D3C-EEA6-D10D-8F1D-47041A14C6DD" referredColumn="3348D02D-56DB-0003-6605-12F2BD484273"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99DE25BC-1E85-72BE-A381-C1C3F3F5D721" name="COMUNA_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>7025868B-A380-9535-8316-8E4DE7F4E37F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23808B41-1ADC-A5F5-AA90-D7E318E6A2C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A9FCB31-3CE0-9021-0C31-6B045FD72A0A" name="COMUNA_PROVINCIA_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>9185ACE1-13B5-D79C-C845-BEA55D76298E</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3344E65A-D8E0-8F33-A2C1-893BAEE6F7F3"/>
+<colUsage columnID="7BF72FDE-1001-B519-DF4D-CD5D9689C522"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

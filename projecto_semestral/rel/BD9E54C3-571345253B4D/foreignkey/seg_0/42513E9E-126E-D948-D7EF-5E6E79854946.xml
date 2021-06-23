@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42513E9E-126E-D948-D7EF-5E6E79854946" containerWithKeyObject="2EEE85C7-A5DA-6E62-ABC2-D81CED6533CB" localFKIndex="7F0C59C5-AEA1-66C9-21E9-7476A571783D" name="PARENTESCO_CARGAS_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>502137F1-ED35-A83E-152D-33350455A7C1</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<referredTableLongName>CARGAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>71B009E7-F77C-1667-255F-DCBEF2EDB7E2</referredTableID>
+<keyObject>F3BE4222-59A3-AE08-E22F-E151196DE3C2</keyObject>
+<referredKeyID>F3BE4222-59A3-AE08-E22F-E151196DE3C2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

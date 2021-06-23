@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="847F6E9C-10B8-074E-1FE3-B85C84F74CC3" name="VEHICULO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>9D9476FE-41A4-2E33-96AF-DD5239282D85</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="patente" id="B4A972FF-7BB0-A27C-797A-011D57AEA19B">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se doblo la cantidad de caracteres para incluir patentes extranjeras.]]></commentInRDBMS>
+<generatorID>3263B3CE-295E-7EF5-0906-4F824A1ED97A</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_chasis" id="6BD2750F-CCD4-2164-3F83-4201F30D6A62">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>EE839616-330C-34F6-463D-81093B617A77</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_motor" id="52B9EA0C-9E94-9C67-92F8-3E24DBE2A3ED">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>3F1E68AD-0691-2127-7D4F-75CC44C30921</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="7D1B0380-B7EB-9C10-52BF-45CC9B6C4F05">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>E04177BE-CEC2-6C2A-BA16-E236A2F5A0CC</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO_id" id="16BBBF72-A1FD-0E53-1218-E99F152FF5B0">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>CDFE34A4-F530-88D0-07A2-C6E7D6582BDD</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4494F794-541B-6B4B-4C5B-6BA0BE50EF70" referredColumn="3F491A24-BBC4-A85D-28F4-3D4697E8273F"/>
+</associations>
+</Column>
+<Column name="TIPO_VEHICULO_id" id="1428CF34-47BB-5902-29A2-74EAB0E8E553">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>98941978-D775-A84C-208F-74304F7E8595</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D445684-1E74-7501-2A03-E5254854DAFA" referredColumn="D2A7E258-A85B-58A6-1E99-3847F1F12667"/>
+</associations>
+</Column>
+<Column name="SOLICITANTE_id" id="D4DCF27D-0102-E563-43BB-8D790A26A7C9">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>01566B32-F54B-9F20-CF66-56D4081F7739</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE8F168C-1413-92B3-DB94-C6A73A5FFA15" referredColumn="2FEB1B80-F4CE-D681-1DD6-81A40665BC35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AF3841E-01FB-B2BE-E3BF-0D7FC6B08849" name="VEHICULO_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>24D7FA06-EF42-6EF6-31F0-0FA3C1354C0C</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4A972FF-7BB0-A27C-797A-011D57AEA19B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B3B3386-5D38-1806-FFA3-111B949059E6" name="VEHICULO_MODELO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>A44DDC4A-1B4B-1569-EFCB-2322E5869322</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16BBBF72-A1FD-0E53-1218-E99F152FF5B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E86AF4D8-2A84-B384-B99F-C0224E05A12F" name="VEHICULO_SOLICITANTE_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>22642349-426C-C3AF-CE16-EB53E60C460F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4DCF27D-0102-E563-43BB-8D790A26A7C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B87E08D8-7EDB-1FA1-8C55-8CC343BC1095" name="VEHICULO_TIPO_VEHICULO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>F313E457-C86F-2FEF-DCF1-9BF7B16AF9A5</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1428CF34-47BB-5902-29A2-74EAB0E8E553"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

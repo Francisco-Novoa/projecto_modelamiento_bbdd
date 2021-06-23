@@ -4,7 +4,7 @@
 <createdTime>2021-06-05 23:05:36 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +20,11 @@
 <createdTime>2021-06-05 23:11:47 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="2A806895-B4A3-BD6D-96B7-5E2A628EA99D">
@@ -30,10 +32,13 @@
 <createdTime>2021-06-05 23:11:57 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -42,7 +47,7 @@
 <createdTime>2021-06-05 23:11:56 UTC</createdTime>
 <ownerDesignName>projecto_semestral</ownerDesignName>
 <engineerTo>
-<item key="8E73C7BB-1B23-AC5D-FA96-E4C108E15DA5" value="true"/>
+<item key="BD9E54C3-F1CD-9817-6D00-571345253B4D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

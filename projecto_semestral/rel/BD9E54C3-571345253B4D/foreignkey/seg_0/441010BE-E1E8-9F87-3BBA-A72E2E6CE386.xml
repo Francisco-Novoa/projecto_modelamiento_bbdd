@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="441010BE-E1E8-9F87-3BBA-A72E2E6CE386" containerWithKeyObject="8CC5910E-ABB6-7FE1-9825-746868E04CBD" localFKIndex="D9FC23A1-BFF1-09AB-D212-2F396C4D112D" name="SOLICITANTE_DISCAPACIDAD_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>1A91D94E-EBDD-3D3B-77E6-48029F9C5EBF</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<referredTableLongName>DISCAPACIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F89E1918-B585-418C-C46D-E76B05758A58</referredTableID>
+<keyObject>61D497E1-26C4-31E2-4A14-47BF2F96D82E</keyObject>
+<referredKeyID>61D497E1-26C4-31E2-4A14-47BF2F96D82E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

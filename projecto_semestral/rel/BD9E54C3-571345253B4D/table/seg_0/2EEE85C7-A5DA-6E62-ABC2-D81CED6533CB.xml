@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EEE85C7-A5DA-6E62-ABC2-D81CED6533CB" name="PARENTESCO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>8F95D1E5-26F9-3510-C31C-9DC14B6D8FE7</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CARGAS_id" id="1A5FAAD6-EC49-38F7-B1F9-8F4EFB46F590">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>7A2EA235-3288-7F4D-CF4D-A7AC67A1EB2F</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42513E9E-126E-D948-D7EF-5E6E79854946" referredColumn="2BB89547-2E7E-92B8-C7D4-FC26482B413C"/>
+</associations>
+</Column>
+<Column name="TIPO_PARENTESCO_id" id="C09E4BF9-4B67-6BC3-DE13-025EFF00AE80">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>B33ABB52-E0F3-9253-DE55-1F1EB2B06CDD</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E5FA8A1-6DDD-9987-D391-805237E3DE09" referredColumn="A204B079-1306-2FAC-6586-9ED46F5C8437"/>
+</associations>
+</Column>
+<Column name="SOLICITANTE_id" id="B5CD6C8B-7456-2A40-95C7-593610645183">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>26DB857C-4ACA-3A6E-ECE0-19036ECD2616</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AA043D7-C38B-88BA-F34D-35170792CE2F" referredColumn="2FEB1B80-F4CE-D681-1DD6-81A40665BC35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39CE2E40-6966-E62E-1FC9-C030DDB5D12E" name="PARENTESCO_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>A8583B13-60A5-96A4-62C0-D7F9B5A23F8D</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A5FAAD6-EC49-38F7-B1F9-8F4EFB46F590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F8550BA-248E-9AD9-2E13-9D29B7C3F80E" name="PARENTESCO_SOLICITANTE_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>DA0EBE0A-9D36-E340-26CF-E7A4BDA7751B</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5CD6C8B-7456-2A40-95C7-593610645183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F0C59C5-AEA1-66C9-21E9-7476A571783D" name="PARENTESCO_CARGAS_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>502137F1-ED35-A83E-152D-33350455A7C1</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A5FAAD6-EC49-38F7-B1F9-8F4EFB46F590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5DC1C70-983D-15A4-3B11-E44FEBA44471" name="PARENTESCO_TIPO_PARENTESCO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>347FE8C7-8708-ED11-F10C-AAAF674E5C01</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C09E4BF9-4B67-6BC3-DE13-025EFF00AE80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

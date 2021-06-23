@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3E3A292-E3BA-F5D2-22A2-E67424C552E1" name="PAGO">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>44A64339-EB8A-2A3A-4142-A13AEF8F575C</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9AD4BE30-C868-682B-F6AF-C09D30CCA7F3">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>21945450-81DB-0392-F2DE-E9BD72380330</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="336D8537-9649-FB2F-2D1E-4B48347673A9">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>07225D00-D5C3-CB9D-7104-DB7B1FBEAD54</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_cheque" id="6A923136-1080-198F-73AA-A5B4235E1DA2">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>24E28F6A-9DD4-11EE-8DBE-17A975E122DE</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANCO_id" id="F21341AD-2DE4-69E2-A0DB-7E769BA11D33">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>2C4116BB-A57C-C629-E456-324A2C88E329</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A216042-A169-4E24-B9D5-47176A3EE23C" referredColumn="4BAD66BE-4F93-C799-8F24-3B28C203AD3C"/>
+</associations>
+</Column>
+<Column name="SOLICITANTE_id" id="1C9040C8-7652-6885-320B-8240775C9A7F">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>43788E2F-D638-D54A-E056-42EF17600E51</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3313141C-35CE-65A7-740F-E8C4973F1070" referredColumn="2FEB1B80-F4CE-D681-1DD6-81A40665BC35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DF97100-5A1D-B45A-CC62-05195ED908E8" name="PAGO_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>24E35598-A3FB-67FF-99D8-D8AED87583A3</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AD4BE30-C868-682B-F6AF-C09D30CCA7F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31748401-B965-DDC5-A5D4-A5A75D6B93A0" name="PAGO_SOLICITANTE_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>36E71AF5-80E9-66A6-5511-139C36495AC3</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C9040C8-7652-6885-320B-8240775C9A7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9948DB0B-213C-70FB-EB95-50E3462A9234" name="PAGO_BANCO_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>751068E5-293C-449A-4EED-E316D58B1456</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F21341AD-2DE4-69E2-A0DB-7E769BA11D33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

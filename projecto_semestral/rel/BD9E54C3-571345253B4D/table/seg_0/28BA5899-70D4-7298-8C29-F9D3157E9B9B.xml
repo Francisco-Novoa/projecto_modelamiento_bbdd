@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28BA5899-70D4-7298-8C29-F9D3157E9B9B" name="PROVINCIA">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>DACA1082-78AA-1884-B0E9-5DFDFBBF6974</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F86FC1D1-5CA9-B6EF-D20C-C46283EDA84A">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>86FBE2BE-F6B7-AC89-E779-D9884376BFA1</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="9DB75F29-A7BE-E211-67F3-E2D459E0DBF8">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre provincia]]></commentInRDBMS>
+<generatorID>BE5A6B1F-75C9-A8F9-7A65-98DF49EC2B6D</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_id" id="3348D02D-56DB-0003-6605-12F2BD484273">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>7104C50C-7FEB-4FC8-DA4B-E24C8E077BC7</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A8FCBAE-1D6F-A94E-3DFE-BA2AB938F6C2" referredColumn="2965155C-DC9F-59E1-866E-089D9C27EBBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84CBF2F7-5F11-2FA3-BC0C-D64C3B78FB33" name="PROVINCIA_PK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>D00288B2-F0BF-5B80-AB13-72F09CE105B3</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F86FC1D1-5CA9-B6EF-D20C-C46283EDA84A"/>
+<colUsage columnID="3348D02D-56DB-0003-6605-12F2BD484273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2A1593C-0E7E-0211-1ADF-39EBF0584BD0" name="PROVINCIA_REGION_FK">
+<createdBy>FranciscoNovoa</createdBy>
+<createdTime>2021-06-24 02:30:59 UTC</createdTime>
+<generatorID>33A4F663-2358-7132-B6BB-F972F0ADE8D1</generatorID>
+<ownerDesignName>projecto_semestral</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3348D02D-56DB-0003-6605-12F2BD484273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
